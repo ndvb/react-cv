@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {EducationSection, ExperienceSection, ProjectsSection} from './SubSections';
-import './MainSection.css';
+import './MainSection.scss';
 
 class MainSection extends Component {
     constructor(props) {

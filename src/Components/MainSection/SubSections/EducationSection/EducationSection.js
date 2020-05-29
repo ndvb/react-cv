@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './EducationSection.css';
+import './EducationSection.scss';
 
 class EducationSection extends Component {
     constructor(props) {

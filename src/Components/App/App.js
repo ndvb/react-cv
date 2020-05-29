@@ -1,6 +1,6 @@
 import React from 'react';
 import {Header, ContactInfo, MainSection, SideSection, Footer} from '../../Components';
-import './App.css';
+import './App.scss';
 import data from '../../Assets/data';
 
 function App() {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './ExperienceSection.css';
+import './ExperienceSection.scss';
 
 class ExperienceSection extends Component {
     constructor(props) {

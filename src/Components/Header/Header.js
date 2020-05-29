@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {listItems} from '../../Utils';
-import './Header.css'
+import './Header.scss'
 
 export default class Header extends Component {
     constructor(props) {

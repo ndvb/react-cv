@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './ProjectsSection';
+import './ProjectsSection.scss';
 
 class ProjectsSection extends Component {
     constructor(props) {

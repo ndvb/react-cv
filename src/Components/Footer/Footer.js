@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Footer.css';
+import './Footer.scss';
 
 class Footer extends Component {
     render() { 
@@ -8,7 +8,7 @@ class Footer extends Component {
                 <div>Made with React.js</div>
                 <div>
                     <span>Source Code: </span>
-                    <a></a>
+                    <a href="https://github.com/ndvb/react-cv">https://github.com/ndvb/react-cv</a>
                 </div>
             </div>
         );

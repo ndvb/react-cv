@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {listItems} from '../../Utils';
-import './SideSection.css';
+import './SideSection.scss';
  
 class SideSection extends Component {
     constructor(props) {

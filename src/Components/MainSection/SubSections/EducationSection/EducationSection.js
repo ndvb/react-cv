@@ -11,16 +11,16 @@ class EducationSection extends Component {
         const listDegrees = this.degrees.map((degree, i) => 
             <div key={i}>
                 <h3>
-                    <span>{degree.school + ', '}</span>
-                    <span>{degree.location + ' -- '}</span>
-                    <span>{degree.degree}</span>
+                    <span className="school">{degree.school + ', '}</span>
+                    <span className="location">{degree.location + ' -- '}</span>
+                    <span className="degree">{degree.degree}</span>
                 </h3>
                 <h4>{degree.timeline}</h4>
                 <p>{degree.description}</p>
             </div>
         );
         return (  
-            <div>
+            <div className="education-section">
                 <h2>{this.title}</h2>
                 {listDegrees}
             </div>

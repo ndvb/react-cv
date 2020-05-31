@@ -12,8 +12,8 @@ class ExperienceSection extends Component {
             <div key={i}>
                 <h3>
                     <span className="company">{job.company + ', '}</span>
-                    <span>{job.location + ' -- '}</span>
-                    <span>{job.position}</span>
+                    <span className="location">{job.location + ' -- '}</span>
+                    <span className="position">{job.position}</span>
                 </h3>
                 <h4>{job.timeline}</h4>
                 <p>{job.description}</p>

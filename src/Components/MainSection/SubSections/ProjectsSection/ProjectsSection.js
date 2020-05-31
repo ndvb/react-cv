@@ -21,9 +21,9 @@ class ProjectsSection extends Component {
             return (
                 <div key={i}>
                     <h3>
-                        <span>{project.name}</span>
+                        <span className="name">{project.name}</span>
                         <span> -- </span>
-                        <span>{project.type}</span>
+                        <span className="type">{project.type}</span>
                     </h3>
                     <p>{project.description}</p>
                     {links}
@@ -32,7 +32,7 @@ class ProjectsSection extends Component {
         });
 
         return ( 
-            <div>
+            <div className="project-section">
                 <h2>{this.title}</h2>
                 {listProjects}
             </div>

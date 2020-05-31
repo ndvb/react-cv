@@ -11,8 +11,8 @@ class SideSection extends Component {
     render() { 
         const sections = this.sections.map((section, i) => 
             <div className={section.title.toLowerCase() + "-section"} key={i}>
-                <h2>{section.title}</h2>
-                <ul>{listItems(section.items)}</ul>
+                <h2 className="title">{section.title}</h2>
+                <ul className="list">{listItems(section.items)}</ul>
             </div>
         );
 

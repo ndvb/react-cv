@@ -1,7 +1,13 @@
 .footer {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+
+    font-weight: 700;
+
+    &>div {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

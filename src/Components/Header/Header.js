@@ -12,8 +12,8 @@ export default class Header extends Component {
     render() {
       return (
         <div className="header">
-          <h1>{this.title}</h1>
-          <ul>{listItems(this.attributes)}</ul>
+          <h1 className="name">{this.title}</h1>
+          <ul className="skillset">{listItems(this.attributes)}</ul>
         </div>
       );
     }

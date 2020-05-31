@@ -6,12 +6,16 @@ import data from '../../Assets/data';
 function App() {
   return (
     <div className="App">
-      <div className="left-section">
+      <div className="top-section">
         <Header {...data.Header}/>
+        <div className="left-section">
+          <ContactInfo {...data.ContactInfo}/>
+        </div>
+      </div>
+      <div className="left-section">
         <MainSection sections={data.MainSections}/>
       </div> 
       <div className="right-section">
-        <ContactInfo {...data.ContactInfo}/>
         <SideSection sections={data.SideSections}/>
       </div>
       <Footer/>

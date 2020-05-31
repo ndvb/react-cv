@@ -1,0 +1,84 @@
+.side-section {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .technologies-section {
+        .list {
+            padding-left: 20px;
+            li {
+                display: inline;
+                list-style: none;
+                &::after {
+                    content: ", ";
+                }
+
+                &:last-child {
+                    &::after {
+                        content: "";
+                    }
+                }
+            }
+        }
+    }
+
+    .hobbies-section {
+        .list {
+            list-style: none;
+            padding-left: 20px;
+
+            li {
+                span {
+                    margin-left: 10px;
+                }
+
+                &.guitar {
+                    &::before {
+                        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f7a6";
+                    }
+                }
+
+                &.music-production {
+                    &::before {
+                        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f001";
+                    }
+                }
+
+                &.cooking {
+                    &::before {
+                        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f2e7";   
+                    }
+                }
+
+                &.photography {
+                    &::before {
+                        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f030";
+                    }
+                }
+
+                &.movies {
+                    &::before {
+                        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f008";
+                    }
+                }
+
+                &.birdwatching {
+                    &::before {
+                        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f520";
+                    }
+                }
+
+                &.hiking {
+                    &::before {
+                        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f6ec";
+                    }
+                }
+
+                &.soccer {
+                    &::before {
+                        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f1e3";
+                    }
+                }
+            }
+        }
+    }
+}

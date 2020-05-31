@@ -3,7 +3,9 @@ import React from '../../node_modules/react';
 const listItems = (items) => {
     return ( 
         items.map((item, i) =>
-            <li key={i}>{item}</li>
+            <li className={item.toLowerCase().replace(' ','-')} key={i}>
+                <span>{item}</span>
+            </li>
         ) 
     );
 }

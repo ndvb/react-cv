@@ -82,7 +82,7 @@ export default
                 {
                     "name": "Artist Album Page",
                     "type": "Personal Project",
-                    "description": "Simple web page with custom audio player and 3d rotatable album hosted on a free heroku instance with custom domain. Created using HTML, CSS, JS and p5.js for the 3d album.",
+                    "description": "Simple web page with custom audio player and 3d rotatable album hosted on a free heroku instance with custom domain made for an album I composed and produced in 2019. Created using HTML, CSS, JS and p5.js for the 3d album.",
                     "links": [
                         {
                             "text": "Visit the webpage here (may take some time to load, the heroku instance is probably asleep):",

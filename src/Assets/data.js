@@ -112,17 +112,17 @@ export default
             "items": [
                 "Implemented the games functionality for Southwest Airlines’ web portal, used by thousands of passengers daily.",
                 "Created the proof of concept to implement apple pay on aircrafts and contributed to it's development.",
-                "Took over development of web applications previously owned by the Mumbai and London offices and led them to successful releases."
+                "Took over development of web applications previously owned by external offices and led them to successful releases."
             ]
         },
         {
             "title": "Programming Languages",
             "items": [
-                "Python",
                 "Javascript",
                 "TypeScript", 
                 "HTML", 
-                "CSS", 
+                "CSS",
+                "Python", 
                 "PHP", 
                 "XML", 
                 "C++", 
@@ -171,6 +171,7 @@ export default
             "items": [
                 "Guitar", 
                 "Music production", 
+                "Gaming",
                 "Cooking",
                 "Photography",
                 "Movies",

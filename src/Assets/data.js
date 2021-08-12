@@ -5,9 +5,9 @@ export default
         "attributes": ["Web applications", "Rest APIs", "Databases", "Software design"]
     },
     "ContactInfo": {
-        "address": "3975 Wellington",
+        "address": "420 3rd Avenue",
         "city": "Verdun, QC",
-        "postalCode": "H4G 1V6",
+        "postalCode": "H4G 2X4",
         "phoneNumber": "(514) 974-7773",
         "email": "nikdvb@gmail.com"
     },
@@ -17,7 +17,7 @@ export default
             "sectionType": "experience",
             "jobs": [
                 {
-                    "company": "Global Eagle",
+                    "company": "Anuvu (FKA Global Eagle)",
                     "location": "Montreal",
                     "position": "Full Stack Developer",
                     "timeline": "January 2020 - PRESENT",
@@ -75,7 +75,7 @@ export default
                     ]
                 },
                 {
-                    "name": "Listen//In",
+                    "name": "ListenIn",
                     "type": "Personal Project",
                     "description": "Project implemented using Phonegap, Angular.js, Node.js, MySQL, and the Spotify API. Allows users to see what other people are listening to around them."
                 },
@@ -110,31 +110,30 @@ export default
         {
             "title": "Achievements",
             "items": [
+                "Designed and contributed to the development of an in-flight shopping API used by passenger and crew applications.",
                 "Implemented the games functionality for Southwest Airlines’ web portal, used by thousands of passengers daily.",
-                "Created the proof of concept to implement apple pay on aircrafts and contributed to it's development.",
+                "Worked on the proof of concept and analysis to implement apple pay on aircrafts and contributed to it's development.",
                 "Took over development of web applications previously owned by external offices and led them to successful releases."
             ]
         },
         {
             "title": "Programming Languages",
             "items": [
+                "Python",
                 "Javascript",
-                "TypeScript", 
-                "HTML", 
-                "CSS",
-                "Python", 
-                "PHP", 
-                "XML", 
-                "C++", 
+                "TypeScript",
                 "Java",
+                "C++",
+                "SQL",
                 "Bash", 
-                "SQL"
+                "PHP",
             ]
         },
         {
             "title": "Technologies",
             "items": [
                 "Angular.js",
+                "Apache",
                 "Meteor", 
                 "React.js", 
                 "Android Studio", 
@@ -152,8 +151,12 @@ export default
                 "Postgresql", 
                 "Google Analytics", 
                 "JwPlayer", 
-                "Java Spring", 
-                "RxJS", 
+                "Java Spring",
+                "Nginx", 
+                "RxJS",
+                "HTML",
+                "CSS",
+                "XML", 
                 "jQuery", 
                 "Mocha", 
                 "Linux", 
@@ -163,7 +166,14 @@ export default
                 "CppUnit", 
                 "Pytest", 
                 "CircleCI", 
-                "Jenkins"
+                "Jenkins",
+                "KVM",
+                "Virtualbox",
+                "SQLite",
+                "Ansible",
+                "CMake",
+                "Memcached",
+                "Redis"
             ]
         },
         {

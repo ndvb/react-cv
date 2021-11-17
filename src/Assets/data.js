@@ -5,7 +5,7 @@ export default
         "attributes": ["Web applications", "Rest APIs", "Databases", "Software design"]
     },
     "ContactInfo": {
-        "address": "420 3rd Avenue",
+        "address": "420 3e Avenue",
         "city": "Verdun, QC",
         "postalCode": "H4G 2X4",
         "phoneNumber": "(514) 974-7773",
@@ -17,11 +17,11 @@ export default
             "sectionType": "experience",
             "jobs": [
                 {
-                    "company": "Anuvu (FKA Global Eagle)",
+                    "company": "Anuvu (formerly, Global Eagle)",
                     "location": "Montreal",
                     "position": "Full Stack Developer",
                     "timeline": "January 2020 - PRESENT",
-                    "description": "Development and maintenance of APIs and infrastructures present on ground as well as in-flight. Includes tasks such as, designing and implementing new features, maintenance of development and production environments, documentation and improvement of current processes, front-end development support, and development and maintenance of embedded systems."
+                    "description": "Development and maintenance of APIs and infrastructures present on ground as well as in-flight. Includes tasks such as, designing and implementing new features, maintenance of development and production environments, documentation and improvement of current processes, front-end development support, mentoring, and development and maintenance of embedded systems."
                 },
                 {
                     "company": "Global Eagle",
@@ -64,35 +64,31 @@ export default
             "sectionType": "projects",
             "projects": [
                 {
-                    "name": "United Airlines Microsite",
+                    "name": "Microportal",
                     "type": "Work Project",
-                    "description": "Project taken over from Mumbai and London which I was able to deliver successfully. The project was built using Meteor, React.js, and Mongodb. Tasks involved completing major content pages according to provided designs, database setup with a CMS, and ensuring that accessibility was in accordance with W3C accessibility guidelines.",
+                    "description": "Generic and themeable template for CMS driven websites that display upcoming entertainment in passenger flights. The project was built using AngularJs to create an SPA, RxJS to fetch data from the CMS, Less for styling and theming, Gulp to automate the build and theming process, and Cypress, Jasmine and Karma for testing. Tasks involved implementing designs, and ensuring that accessibility was in accordance with W3C accessibility guidelines.",
                     "links": [
                         {
                             "text": "Visit the website here:",
-                            "link": "http://unitedprivatescreening.com/"
+                            "link": "https://entertainment.cathaypacific.com/"
+                        }
+                    ]
+                },
+                {
+                    "name": "Airtime Portal",
+                    "type": "Work Project",
+                    "description": "Contributed to the Full-Stack development of this generic and themeable application that offers entertainment to passengers in-flight. The frontend project uses AngularJs as the main framework, RxJS to fetch data from our backend API, Sass for styling and theming, Cypress for testing, and Gulp and Jenkins for build and testing automation. On the backend, there are two Falcon python REST APIs, the on-ground API, which is hosted on Ubuntu servers and deployed using Docker and Ansible, and there is the in-flight API, which lives on Archlinux servers on the plane and is installed via pacman packages.",
+                    "links": [
+                        {
+                            "text": "For more information:",
+                            "link": "https://www.anuvu.com/our-portfolio/products#showcase-intro-airtime-portal"
                         }
                     ]
                 },
                 {
                     "name": "ListenIn",
                     "type": "Personal Project",
-                    "description": "Project implemented using Phonegap, Angular.js, Node.js, MySQL, and the Spotify API. Allows users to see what other people are listening to around them."
-                },
-                {
-                    "name": "Artist Album Page",
-                    "type": "Personal Project",
-                    "description": "Simple web page with custom audio player and 3d rotatable album hosted on a free heroku instance with custom domain made for an album I composed and produced in 2019. Created using HTML, CSS, JS and p5.js for the 3d album.",
-                    "links": [
-                        {
-                            "text": "Visit the webpage here (may take some time to load, the heroku instance is probably asleep):",
-                            "link": "http://sequester.xyz/"
-                        },
-                        {
-                            "text": "You can find the source code here:",
-                            "link": "https://gitlab.com/ndvb/album-page"
-                        }
-                    ]
+                    "description": "Project implemented using Phonegap to target multiple mobile platforms at once, Angular.js for the frontend application, Node.js for the build, development tools and backend server, Express.js to create a scalable API to communicate with the project's MySQL database and the Spotify API. The application allows users to see what other users are listening to around them."
                 }
             ]
         }
@@ -112,7 +108,7 @@ export default
             "items": [
                 "Designed and contributed to the development of an in-flight shopping API used by passenger and crew applications.",
                 "Implemented the games functionality for Southwest Airlines’ web portal, used by thousands of passengers daily.",
-                "Worked on the proof of concept and analysis to implement apple pay on aircrafts and contributed to it's development.",
+                "Worked on the proof of concept and analysis to implement Apple Pay on aircrafts and contributed to it's development.",
                 "Took over development of web applications previously owned by external offices and led them to successful releases."
             ]
         },

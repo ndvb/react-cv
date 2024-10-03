@@ -2,7 +2,7 @@ export default
 {
     "Header": {
         "title": "Nikolas De Vigne Blanchet",
-        "attributes": ["Web applications", "Rest APIs", "Databases", "Software design"]
+        "attributes": ["Web applications", "Rest APIs", "Databases", "Software Design"]
     },
     "ContactInfo": {
         "address": "420 3e Avenue",
@@ -17,11 +17,18 @@ export default
             "sectionType": "experience",
             "jobs": [
                 {
+                    "company": "Moment Factory",
+                    "location": "Montreal",
+                    "position": "Full Stack Developer",
+                    "timeline": "January 2022 - PRESENT",
+                    "description": "Full stack development for a show control application used on a multitude of interactive project. Includes tasks such as, designing and implementing new features, researching new technologies, maintenance of development operations, mentoring and improvement of software development practices."
+                },
+                {
                     "company": "Anuvu (formerly, Global Eagle)",
                     "location": "Montreal",
                     "position": "Full Stack Developer",
-                    "timeline": "January 2020 - PRESENT",
-                    "description": "Development and maintenance of APIs and infrastructures present on ground as well as in-flight. Includes tasks such as, designing and implementing new features, maintenance of development and production environments, documentation and improvement of current processes, front-end development support, mentoring, and development and maintenance of embedded systems."
+                    "timeline": "January 2020 - January 2022",
+                    "description": "Development and maintenance of APIs and infrastructures present on ground as well as in-flight. Included tasks such as, designing and implementing new features, maintenance of development and production environments, documentation and improvement of current processes, front-end development support, mentoring, and development and maintenance of embedded systems."
                 },
                 {
                     "company": "Global Eagle",
@@ -29,13 +36,6 @@ export default
                     "position": "Front-end Developer",
                     "timeline": "September 2018 - December 2019",
                     "description": "Front-end development for multiple websites displaying entertainment content available in-flight for major airline companies such as KLM, United Airlines, Air New Zealand, Vietnam airlines, and more. Also contributed to development of web portals used to watch/listen to entertainment in-flight (includes clients such as Air France and Southwest Airlines)."
-                },
-                {
-                    "company": "Okus",
-                    "location": "Montreal",
-                    "position": "Part-time Full Stack Developer",
-                    "timeline": "January 2018 - May 2018",
-                    "description": "Full stack development for a startup's pilot project consisting of chatbots used for car dealership customer support. Included tasks such as server maintenance and front-end customization for multiple clients."
                 }
             ]
         },
@@ -64,6 +64,28 @@ export default
             "sectionType": "projects",
             "projects": [
                 {
+                    "name": "Control Center",
+                    "type": "Work Project",
+                    "description": "Contributed to the Full-Stack development, devOps, and improvement of this in-house Show Control product used on many interactive projects. Notably, added functionalitites to improve monitoring, and control of on-site equipment and content, such as a new scheduling interface, parameterizable tasks, new devices and communication protocols, and more.",
+                    "links": [
+                        {
+                            "text": "Here are some example projects:"
+                        },
+                        {
+                            "link": "https://momentfactory.com/products/att-visualizer?variant=43498439147717"
+                        },
+                        {
+                            "link": "https://momentfactory.com/products/the-messi-experience?variant=43522834104517"
+                        },
+                        {
+                            "link": "https://momentfactory.com/products/arcade?variant=43496942469317"
+                        },
+                        {
+                            "link": "https://momentfactory.com/products/le-village-quebecois-d-antan?variant=43498664296645"
+                        }
+                    ]
+                },
+                {
                     "name": "Microportal",
                     "type": "Work Project",
                     "description": "Generic and themeable template for CMS driven websites that display upcoming entertainment in passenger flights. The project was built using AngularJs to create an SPA, RxJS to fetch data from the CMS, Less for styling and theming, Gulp to automate the build and theming process, and Cypress, Jasmine and Karma for testing. Tasks involved implementing designs, and ensuring that accessibility was in accordance with W3C accessibility guidelines.",
@@ -84,11 +106,6 @@ export default
                             "link": "https://www.anuvu.com/our-portfolio/products#showcase-intro-airtime-portal"
                         }
                     ]
-                },
-                {
-                    "name": "ListenIn",
-                    "type": "Personal Project",
-                    "description": "Project implemented using Phonegap to target multiple mobile platforms at once, Angular.js for the frontend application, Node.js for the build, development tools and backend server, Express.js to create a scalable API to communicate with the project's MySQL database and the Spotify API. The application allows users to see what other users are listening to around them."
                 }
             ]
         }
@@ -106,6 +123,7 @@ export default
         {
             "title": "Achievements",
             "items": [
+                "Designed, developed and researched tools to create a new scheduling interface for a Show Control used on many live entertainment projects.",
                 "Designed and contributed to the development of an in-flight shopping API used by passenger and crew applications.",
                 "Implemented the games functionality for Southwest Airlines’ web portal, used by thousands of passengers daily.",
                 "Worked on the proof of concept and analysis to implement Apple Pay on aircrafts and contributed to it's development.",
@@ -118,41 +136,29 @@ export default
                 "Python",
                 "Javascript",
                 "TypeScript",
-                "Java",
-                "C++",
                 "SQL",
-                "Bash", 
                 "PHP",
             ]
         },
         {
             "title": "Technologies",
             "items": [
-                "Angular.js",
-                "Apache",
-                "Meteor", 
                 "React.js", 
-                "Android Studio", 
-                "Django", 
-                "Pyramid", 
-                "Express.js", 
+                "AngularJS",
                 "Node.js", 
-                "Yocto", 
+                "Express.js", 
+                "Next.js",
+                "Jest",
+                "Cypress",
+                "GitlabCI",
                 "Docker", 
                 "Falcon", 
-                "Black", 
-                "Flask", 
-                "Phonegap", 
                 "MySql", 
                 "Postgresql", 
                 "Google Analytics", 
-                "JwPlayer", 
-                "Java Spring",
                 "Nginx", 
                 "RxJS",
-                "HTML",
                 "CSS",
-                "XML", 
                 "jQuery", 
                 "Mocha", 
                 "Linux", 
@@ -161,13 +167,14 @@ export default
                 "JUnit", 
                 "CppUnit", 
                 "Pytest", 
-                "CircleCI", 
-                "Jenkins",
                 "KVM",
                 "Virtualbox",
+                "Yocto",
+                "JwPlayer", 
                 "SQLite",
                 "Ansible",
                 "CMake",
+                "Apache",
                 "Memcached",
                 "Redis"
             ]
@@ -177,13 +184,13 @@ export default
             "items": [
                 "Guitar", 
                 "Music production", 
-                "Gaming",
                 "Cooking",
                 "Photography",
                 "Movies",
                 "Birdwatching", 
                 "Hiking", 
-                "Soccer"
+                "Soccer",
+                "Mountain Biking"
             ]
         }
     ]

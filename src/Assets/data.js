@@ -21,7 +21,7 @@ export default
                     "location": "Montreal",
                     "position": "Full Stack Developer",
                     "timeline": "January 2022 - PRESENT",
-                    "description": "Full stack development for a show control application used on a multitude of interactive project. Includes tasks such as, designing and implementing new features, researching new technologies, maintenance of development operations, mentoring and improvement of software development practices."
+                    "description": "Full stack development for a show control application used on a multitude of interactive projects. Includes tasks such as, designing and implementing new features, researching new technologies, maintenance of development operations, mentoring and improvement of software development practices."
                 },
                 {
                     "company": "Anuvu (formerly, Global Eagle)",
@@ -137,7 +137,6 @@ export default
                 "Javascript",
                 "TypeScript",
                 "SQL",
-                "PHP",
             ]
         },
         {

@@ -21,7 +21,7 @@ export default
                     "location": "Montreal",
                     "position": "Full-Stack Developer",
                     "timeline": "January 2022 - PRESENT",
-                    "description": "Full stack development for a show control application used on a multitude of interactive projects. Includes tasks such as, designing and implementing new features, researching new technologies, maintenance of development operations, mentoring and improvement of software development practices."
+                    "description": "Full stack development for a show control application used on a multitude of interactive projects. Includes tasks such as: designing and implementing new features, researching new technologies, maintenance of development operations, mentoring and improvement of software development practices."
                 },
                 {
                     "company": "Anuvu (formerly Global Eagle)",
@@ -73,7 +73,7 @@ export default
                 {
                     "name": "Control Center",
                     "type": "Work Project",
-                    "description": "Contributed to the Full-Stack development, devOps, and improvement of this in-house Show Control product used on many interactive projects. Notably, added functionalitites to improve monitoring, and control of on-site equipment and content, such as a new scheduling interface, parameterizable tasks, new devices, communication protocols, and more.",
+                    "description": "Contributed to the Full-Stack development, devOps, and improvement of this in-house Show Control product used on many interactive projects. Notably, added functionalitites to improve monitoring, and control of on-site equipment and content, such as a new scheduling interface, a new fully customizable dashboard, parameterizable tasks, new devices, communication protocols, and much more.",
                     "links": [
                         {
                             "text": "Here are some example projects:"
@@ -95,7 +95,7 @@ export default
                 {
                     "name": "Microportal",
                     "type": "Work Project",
-                    "description": "Generic and themeable template for CMS driven websites that display upcoming entertainment in passenger flights. The project was built using AngularJs to create an SPA, RxJS to fetch data from the CMS, Less for styling and theming, Gulp to automate the build and theming process, and Cypress, Jasmine and Karma for testing. Tasks involved implementing designs, and ensuring that accessibility was in accordance with W3C accessibility guidelines.",
+                    "description": "Generic and themeable template for CMS driven websites that displays upcoming entertainment on passenger flights. The project was built using AngularJs to create an SPA, RxJS to manage data from the CMS, Less for styling and theming, Gulp to automate the build and theming processes, and Cypress, Jasmine and Karma for testing. Tasks involved implementing designs, and ensuring that accessibility was in accordance with W3C accessibility guidelines.",
                     "links": [
                         {
                             "text": "Visit the website here:",
@@ -106,7 +106,7 @@ export default
                 {
                     "name": "Airtime Portal",
                     "type": "Work Project",
-                    "description": "Contributed to the Full-Stack development of this generic and themeable application that offers entertainment to passengers in-flight. The frontend project uses AngularJs as the main framework, RxJS to fetch data from our backend API, Sass for styling and theming, Cypress for testing, and Gulp and Jenkins for build and testing automation. On the backend, there are two Falcon python REST APIs, the on-ground API, which is hosted on Ubuntu servers and deployed using Docker and Ansible, and there is the in-flight API, which lives on Archlinux servers on the plane and is installed via pacman packages.",
+                    "description": "Contributed to the Full-Stack development of this generic and themeable application that offers entertainment to passengers in-flight. The frontend project used AngularJs as the main framework, RxJS to handle data from our backend API, Sass for styling and theming, Cypress for testing, and Gulp and Jenkins for build and testing automation. On the backend, there were two REST APIs that used the Falcon Python framework, the on-ground API, which was hosted on Ubuntu servers and deployed using Docker and Ansible, and the in-flight API, which was installed on Archlinux servers on the planes via pacman packages.",
                     "links": [
                         {
                             "text": "For more information:",
@@ -130,6 +130,7 @@ export default
         {
             "title": "Achievements",
             "items": [
+                "Re-designed the frontend architecture for the React portion of a Show Control application taking into account future needs and the implementation of a new fully customizable control dashboard.",
                 "Designed, developed and researched tools to create a new scheduling interface for a Show Control used on many live entertainment projects.",
                 "Designed and contributed to the development of an in-flight shopping API used by passenger and crew applications.",
                 "Implemented the games functionality for Southwest Airlines’ web portal, used by thousands of passengers daily.",
@@ -156,6 +157,8 @@ export default
                 "Node.js", 
                 "Express.js", 
                 "Next.js",
+                "Zod",
+                "React Query",
                 "Zustand",
                 "Jest",
                 "Cypress",

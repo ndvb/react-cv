@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {listItems} from '../../Utils';
+import listItems from '../../Utils/listItems';
 import './Header.scss'
 
 export default class Header extends Component {

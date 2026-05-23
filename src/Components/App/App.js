@@ -1,7 +1,8 @@
 import React from 'react';
 import {Header, ContactInfo, MainSection, SideSection, Footer} from '../../Components';
 import './App.scss';
-import data from '../../Assets/data';
+// import data from '../../Assets/data';
+import data from '../../Assets/data.french'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <div className="right-section">
         <SideSection sections={data.SideSections}/>
       </div>
-      <Footer/>
+      <Footer {...data.Footer}/>
     </div>
   );
 }

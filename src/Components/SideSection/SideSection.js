@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {listItems} from '../../Utils';
+import listItems from '../../Utils/listItems';
 import './SideSection.scss';
  
 class SideSection extends Component {
@@ -10,7 +10,7 @@ class SideSection extends Component {
 
     render() { 
         const sections = this.sections.map((section, i) => 
-            <div className={section.title.toLowerCase() + "-section"} key={i}>
+            <div className={section.className} key={i}>
                 <h2 className="title">{section.title}</h2>
                 <ul className="list">{listItems(section.items)}</ul>
             </div>

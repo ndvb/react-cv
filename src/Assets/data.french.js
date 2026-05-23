@@ -4,19 +4,19 @@ export default
         "title": "Nikolas De Vigne Blanchet",
         "attributes": [
             {
-                "text": "Web Applications",
+                "text": "Applications Web",
                 "className": ""
             },
             {
-                "text": "REST APIs",
+                "text": "APIs REST",
                 "className": ""
             },
             {
-                "text": "Databases",
+                "text": "Bases de données",
                 "className": ""
             },
             {
-                "text": "Software Design",
+                "text": "Conception logicielle",
                 "className": ""
             }
         ]
@@ -30,70 +30,70 @@ export default
     },
     "MainSections": [
         {
-            "title": "Experience",
+            "title": "Expérience",
             "sectionType": "experience",
             "jobs": [
                 {
                     "company": "Moment Factory",
-                    "location": "Montreal",
-                    "position": "Full-Stack Developer",
-                    "timeline": "January 2022 - PRESENT",
-                    "description": "Full-stack development for a show control application used across a variety of interactive projects. Includes tasks such as designing and implementing new features, researching new technologies, maintaining development operations, mentoring, and improving software development practices."
+                    "location": "Montréal",
+                    "position": "Développeur Full-Stack",
+                    "timeline": "Janvier 2022 - PRÉSENT",
+                    "description": "Développement Full-Stack pour une application de contrôle de spectacles utilisée dans une multitude de projets interactifs. Comprend des tâches telles que : la conception et l’implémentation de nouvelles fonctionnalités, la recherche de nouvelles technologies, la maintenance des opérations de développement, le mentorat et l’amélioration des pratiques de développement logiciel."
                 },
                 {
-                    "company": "Anuvu (formerly Global Eagle)",
-                    "location": "Montreal",
-                    "position": "Full-Stack Developer",
-                    "timeline": "January 2020 - January 2022",
-                    "description": "Development and maintenance of APIs and infrastructure both on the ground and in-flight. Includes designing and implementing new features, maintaining development and production environments, documenting and improving processes, supporting frontend development, mentoring, and maintaining embedded systems."
+                    "company": "Anuvu (anciennement Global Eagle)",
+                    "location": "Montréal",
+                    "position": "Développeur Full-Stack",
+                    "timeline": "Janvier 2020 - Janvier 2022",
+                    "description": "Développement et maintenance d’APIs et d’infrastructures présentes au sol ainsi qu’en vol. Comprend des tâches telles que : la conception et l’implémentation de nouvelles fonctionnalités, la maintenance des environnements de développement et de production, la documentation et l’amélioration des processus actuels, le support au développement frontend, le mentorat, ainsi que le développement et la maintenance de systèmes embarqués."
                 },
                 {
                     "company": "Global Eagle",
-                    "location": "Montreal",
-                    "position": "Frontend Developer",
-                    "timeline": "September 2018 - December 2019",
-                    "description": "Frontend development for multiple in-flight entertainment websites used by major airlines such as KLM, United Airlines, Air New Zealand, Vietnam Airlines, and others. Also contributed to web portals used for streaming in-flight entertainment (including clients such as Air France and Southwest Airlines)."
+                    "location": "Montréal",
+                    "position": "Développeur Frontend",
+                    "timeline": "Septembre 2018 - Décembre 2019",
+                    "description": "Développement frontend pour plusieurs sites web affichant du contenu de divertissement disponible en vol pour de grandes compagnies aériennes telles que KLM, United Airlines, Air New Zealand, Vietnam Airlines et plusieurs autres. A également contribué au développement de portails web utilisés pour regarder et écouter du contenu de divertissement en vol (incluant des clients tels qu’Air France et Southwest Airlines)."
                 },
                 {
                     "company": "Okus",
-                    "location": "Montreal",
-                    "position": "Part-time Full-Stack Developer",
-                    "timeline": "January 2018 - May 2018",
-                    "description": "Full-stack development for a startup pilot project involving chatbots for car dealership customer support. Included server maintenance and frontend customization for multiple clients."
+                    "location": "Montréal",
+                    "position": "Développeur Full-Stack à temps partiel",
+                    "timeline": "Janvier 2018 - Mai 2018",
+                    "description": "Développement Full-Stack pour le projet pilote d’une startup consistant en des chatbots utilisés pour le support client de concessionnaires automobiles. Comprend des tâches telles que la maintenance des serveurs et la personnalisation frontend pour plusieurs clients."
                 }
             ]
         },
         {
-            "title": "Education",
+            "title": "Formation",
             "sectionType": "education",
             "degrees": [
                 {
-                    "school": "Concordia University",
-                    "location": "Montreal",
-                    "degree": "Software Engineering (B.Eng.)",
-                    "timeline": "January 2014 - May 2018",
-                    "description": "Four-year engineering bachelor’s program focused on software design, programming, and testing. Courses included web programming, object-oriented programming, databases, software architecture and design, computer graphics, and more."
+                    "school": "Université Concordia",
+                    "location": "Montréal",
+                    "degree": "Génie logiciel (B. Ing.)",
+                    "timeline": "Janvier 2014 - Mai 2018",
+                    "description": "Programme de baccalauréat en génie de quatre ans où j’ai appris à concevoir, programmer et tester des logiciels. Cours complétés incluant : programmation web, programmation orientée objet, bases de données, architecture et conception logicielle, infographie et plus encore."
                 },
                 {
-                    "school": "Champlain Regional College",
+                    "school": "Collège régional Champlain",
                     "location": "Saint-Lambert",
-                    "degree": "Pure & Applied Science",
-                    "timeline": "September 2012 - November 2014",
-                    "description": "Two-year pre-university science program covering mathematics, physics, chemistry, biology, and computer science."
+                    "degree": "Sciences pures et appliquées",
+                    "timeline": "Septembre 2012 - Novembre 2014",
+                    "description": "Programme préuniversitaire en sciences de deux ans comprenant des cours en mathématiques, physique, chimie, biologie et informatique."
                 }
             ]
         },
         {
-            "title": "Projects",
+            "title": "Projets",
             "sectionType": "projects",
             "projects": [
                 {
                     "name": "Control Center",
-                    "type": "Professional Project",
-                    "description": "Contributed to full-stack development, DevOps, and improvement of an internal show control product used across multiple interactive projects. Added features to improve monitoring and control of on-site equipment and content, including a new scheduling interface, a fully customizable dashboard, configurable tasks, new devices, communication protocols, and more.",
+                    "type": "Projet professionnel",
+                    "description": "Contribution au développement Full-Stack, au devOps et à l’amélioration de ce produit interne de contrôle de spectacles utilisé dans plusieurs projets interactifs. Notamment, ajout de fonctionnalités améliorant la surveillance et le contrôle des équipements et du contenu sur site, telles qu’une nouvelle interface de planification, un nouveau tableau de bord entièrement personnalisable, des tâches paramétrables, de nouveaux appareils, protocoles de communication et bien plus.",
                     "links": [
                         {
-                            "text": "Here are some example projects:"
+                            "text": "Exemples de projets :"
                         },
                         {
                             "link": "https://momentfactory.com/collections/x-agora"
@@ -102,22 +102,22 @@ export default
                 },
                 {
                     "name": "Microportal",
-                    "type": "Professional Project",
-                    "description": "Generic, themeable CMS-driven website template for in-flight entertainment systems. Built using AngularJS for SPA architecture, RxJS for CMS data handling, Less for styling and theming, and Gulp for build automation. Cypress, Jasmine, and Karma were used for testing. Work included implementing designs and ensuring W3C accessibility compliance.",
+                    "type": "Projet professionnel",
+                    "description": "Modèle générique et personnalisable pour des sites web pilotés par CMS affichant les divertissements à venir sur les vols passagers. Le projet utilisait AngularJS pour créer une SPA, RxJS pour gérer les données du CMS, Less pour le style et les thèmes, ainsi que Gulp pour automatiser les processus de build et de création de thèmes. Cypress, Jasmine et Karma étaient utilisés pour les tests. Les tâches comprenaient l’implémentation des designs et l’assurance de la conformité avec les directives d’accessibilité du W3C.",
                     "links": [
                         {
-                            "text": "Visit the website here:",
+                            "text": "Visitez le site ici :",
                             "link": "https://entertainment.cathaypacific.com/"
                         }
                     ]
                 },
                 {
                     "name": "Airtime Portal",
-                    "type": "Professional Project",
-                    "description": "Full-stack contribution to a customizable in-flight entertainment platform. Frontend used AngularJS, RxJS, Sass, Cypress, Gulp, and Jenkins. Backend consisted of two Python Falcon REST APIs: a ground API deployed on Ubuntu with Docker and Ansible, and an in-flight API installed on aircraft systems via Arch Linux packages.",
+                    "type": "Projet professionnel",
+                    "description": "Contribution au développement Full-Stack de cette application générique et personnalisable offrant du divertissement aux passagers en vol. Le projet frontend utilisait AngularJS comme framework principal, RxJS pour gérer les données de l’API backend, Sass pour le style et les thèmes, Cypress pour les tests, ainsi que Gulp et Jenkins pour l’automatisation des builds et des tests. Côté backend, deux APIs REST utilisaient le framework Python Falcon : l’API au sol, hébergée sur des serveurs Ubuntu et déployée avec Docker et Ansible, ainsi que l’API en vol, installée sur des serveurs Arch Linux dans les avions via des paquets pacman.",
                     "links": [
                         {
-                            "text": "For more information:",
+                            "text": "Pour plus d’informations :",
                             "link": "https://www.anuvu.com/our-portfolio/products#showcase-intro-airtime-portal"
                         }
                     ]
@@ -127,63 +127,63 @@ export default
     ],
     "SideSections": [
         {
-            "title": "Skills",
+            "title": "Compétences",
             "className": "",
             "items": [
                 {
-                    "text": "Strong foundation in software engineering and programming principles across multiple platforms.",
+                    "text": "Solides bases en génie logiciel et en principes de programmation sur plusieurs plateformes.",
                     "className": ""
                 },
                 {
-                    "text": "Able to quickly learn and master new technologies.",
+                    "text": "Capable d’apprendre et de maîtriser rapidement de nouvelles technologies.",
                     "className": ""
                 },
                 {
-                    "text": "Comfortable working in a team or independently.",
+                    "text": "À l’aise autant en équipe qu’en autonomie.",
                     "className": ""
                 },
                 {
-                    "text": "Fully bilingual in French and English.",
+                    "text": "Parfaitement bilingue en français et en anglais.",
                     "className": ""
                 }
             ]
         },
         {
-            "title": "Achievements",
+            "title": "Réalisations",
             "className": "",
             "items": [
                 {
-                    "text": "Redesigned frontend architecture for the React portion of a show control system, anticipating future requirements and enabling a fully customizable dashboard.",
+                    "text": "Refonte de l’architecture frontend pour la portion React d’une application de contrôle de spectacles en tenant compte des besoins futurs et de l’implémentation d’un nouveau tableau de bord de contrôle entièrement personnalisable.",
                     "className": ""
                 },
                 {
-                    "text": "Designed, developed, and researched tools for a new scheduling interface used in live entertainment show control systems.",
+                    "text": "Conception, développement et recherche d’outils pour créer une nouvelle interface de planification pour un système de contrôle de spectacles utilisé dans plusieurs projets de divertissement en direct.",
                     "className": ""
                 },
                 {
-                    "text": "Contributed to the design and development of an in-flight shopping API used by passenger and crew applications.",
+                    "text": "Conception et contribution au développement d’une API de magasinage en vol utilisée par les applications passagers et équipage.",
                     "className": ""
                 },
                 {
-                    "text": "Implemented game functionality for Southwest Airlines’ web portal used by thousands of passengers daily.",
+                    "text": "Implémentation de la fonctionnalité de jeux pour le portail web de Southwest Airlines, utilisé quotidiennement par des milliers de passagers.",
                     "className": ""
                 },
                 {
-                    "text": "Worked on proof-of-concept and implementation of Apple Pay on aircraft systems.",
+                    "text": "Participation à la preuve de concept et à l’analyse pour l’implémentation d’Apple Pay dans les avions, ainsi qu’à son développement.",
                     "className": ""
                 },
                 {
-                    "text": "Took over and successfully delivered previously externally managed web applications.",
+                    "text": "Reprise du développement d’applications web auparavant gérées par des bureaux externes et livraison réussie de nouvelles versions.",
                     "className": ""
                 }
             ]
         },
         {
-            "title": "Programming Languages",
+            "title": "Langages de programmation",
             "className": "",
             "items": [
                 {
-                    "text": "JavaScript",
+                    "text": "Javascript",
                     "className": ""
                 },
                 {
@@ -257,11 +257,11 @@ export default
                     "className": ""
                 },
                 {
-                    "text": "ESLint",
+                    "text": "ESlint",
                     "className": ""
                 },
                 {
-                    "text": "GitLab CI",
+                    "text": "GitlabCI",
                     "className": ""
                 },
                 {
@@ -273,11 +273,11 @@ export default
                     "className": ""
                 },
                 {
-                    "text": "MySQL",
+                    "text": "MySql",
                     "className": ""
                 },
                 {
-                    "text": "PostgreSQL",
+                    "text": "Postgresql",
                     "className": ""
                 },
                 {
@@ -289,7 +289,7 @@ export default
                     "className": ""
                 },
                 {
-                    "text": "JSON-RPC",
+                    "text": "JsonRPC",
                     "className": ""
                 },
                 {
@@ -353,7 +353,7 @@ export default
                     "className": ""
                 },
                 {
-                    "text": "VirtualBox",
+                    "text": "Virtualbox",
                     "className": ""
                 },
                 {
@@ -361,7 +361,7 @@ export default
                     "className": ""
                 },
                 {
-                    "text": "JW Player",
+                    "text": "JwPlayer",
                     "className": ""
                 },
                 {
@@ -391,35 +391,35 @@ export default
             ]
         },
         {
-            "title": "Hobbies",
+            "title": "Loisirs",
             "className": "hobbies-section",
             "items": [
                 {
-                    "text": "Guitar",
+                    "text": "Guitare",
                     "className": "guitar"
                 },
                 {
-                    "text": "Music production",
+                    "text": "Production musicale",
                     "className": "music-production"
                 },
                 {
-                    "text": "Cooking",
+                    "text": "Cuisine",
                     "className": "cooking"
                 },
                 {
-                    "text": "Photography",
+                    "text": "Photographie",
                     "className": "photography"
                 },
                 {
-                    "text": "Movies",
+                    "text": "Cinéma",
                     "className": "movies"
                 },
                 {
-                    "text": "Birdwatching",
+                    "text": "Observation d'oiseaux",
                     "className": "birdwatching"
                 },
                 {
-                    "text": "Hiking",
+                    "text": "Randonnée",
                     "className": "hiking"
                 },
                 {
@@ -427,14 +427,14 @@ export default
                     "className": "soccer"
                 },
                 {
-                    "text": "Mountain Biking",
+                    "text": "Vélo de montagne",
                     "className": "mountain-biking"
                 }
             ]
         }
     ],
     "Footer": {
-        "text": "Made with React",
-        "linkText": "Source Code"
+        "text": "Construit avec React",
+        "linkText": "Code Source"
     }
 }
